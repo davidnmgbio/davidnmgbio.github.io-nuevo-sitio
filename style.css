@@ -64,7 +64,7 @@ nav a:hover{color:var(--accent); text-decoration: none;}
 .btn-secondary{background:transparent;border:1px solid var(--muted);color:var(--muted);}
 .btn-secondary:hover{background:var(--muted); color: var(--card-bg); text-decoration: none;}
 
-.card{background:var(--card-bg);padding:30px;border-radius:12px;box-shadow:0 4px 15px var(--shadow); border: 1px solid #eee;}
+.card{background:var(--card-bg);padding:30px;border-radius:12px;box-shadow:0 4px 15px var(--shadow); border: 1px solid #eee; text-align: center;}
 section{padding:60px 0;border-top:1px solid rgba(0,0,0,0.05)}
 .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:30px}
 .muted{color:var(--muted)}
@@ -110,7 +110,6 @@ footer .small{font-size:14px}
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center; /* Mantener centrado el contenido del hero */
 }
 
 /* Estilos para la sección de Contacto */
